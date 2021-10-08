@@ -26,6 +26,8 @@ public class ReadJsonFile {
 	    for(HashMap<String,String> s : testDataList) {
 	    	System.out.println(s.get("name") + " " + s.get("age") + "  " + s.get("city"));
 	    }
+	    
+	    System.out.println("Hello this is the last line");
 		
 	}
 
