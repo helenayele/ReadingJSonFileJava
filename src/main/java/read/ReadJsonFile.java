@@ -24,7 +24,7 @@ public class ReadJsonFile {
 	    ArrayList<HashMap> testDataList = testData.get("students");
 	    System.out.println("size of json list is" + testDataList.size());
 	    for(HashMap<String,String> s : testDataList) {
-	    	System.out.println(s.get("name") + " " + s.get("age") + s.get("city"));
+	    	System.out.println(s.get("name") + " " + s.get("age") + "  " + s.get("city"));
 	    }
 		
 	}
